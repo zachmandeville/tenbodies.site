@@ -1,38 +1,20 @@
-# create-svelte
+# shop.angblev.com 
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+A frontend for Angelica's site, using Shopify as a backend.
 
-## Creating a project
+# Ingredients
+We made this frontend usiong Svelte. You can learn more about svelte at https://svelte.dev
 
-If you're seeing this, you've probably already done this step. Congrats!
+# The Site
+shop.angblev.com is a catch all shop for Angelica's jewelry, yoga, music, and art.
 
-```bash
-# create a new project in the current directory
-npm init svelte
+It's main components right now are:
+- a section for jewelry to buy online
+- a section on yoga for yoga zines, class information, yoga thoughts, etc.
+- a section for music where she shares mixes.
 
-# create a new project in my-app
-npm init svelte my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+# Principles
+1. The site should be easy for Angelica and myself to understand
+2. It should be zippy and easy to use for Angblev fans
+3. There should be no limitation on its design imposed by Shopify. The products
+   can be wherever, the cart travels with you through the site.
