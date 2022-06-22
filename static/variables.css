@@ -1,0 +1,90 @@
+/****************************\
+*          VARIABLES         *
+\****************************/
+
+:root {
+    /*------------------*\
+      #Colours
+    \*..................*/
+    --black: #000d;
+    --white #fff;
+    --colourA: #ff6347;
+    --colourB: forestgreen;
+
+    --colour-body: var(--colourA);
+    --colour-accent: var(--colourB);
+    --colour-bg: var(--white);
+
+
+
+    /*------------------*\
+      #Fonts
+    \*..................*/
+    --mono: "IBM Plex Mono", monospace;
+    --sans: IBM Plex Sans, sans-serif;
+    --serif: IBM Plex Serif, serif;
+
+    --font-heading: var(--mono);
+    --font-body: var(--sans);
+
+    --font-root: 18px;
+    --font-weight: 400;
+    /* Using the musical tetrotonic scale, from https://spencermortensen.com/articles/typographic-scale/ */
+    --font-xxs: .5201rem;
+    --font-xs: .8409rem;
+    --font-s: 1rem;
+    --font-m: 1.1892rem;
+    --font-ml: 1.4142rem;
+    --font-l: 1.6818rem;
+    --font-xl: 2rem;
+    --font-xxl: 2.3784rem;
+    --heading-alignment: left;
+
+
+
+
+    /*------------------*\
+      #Spacing
+    \*..................*/
+
+    --space-unit: 1rem;
+    --space-xxxs: calc(0.25 * var(--space-unit));
+    --space-xxs:  calc(0.375 * var(--space-unit));
+    --space-xs:   calc(0.5 * var(--space-unit));
+    --space-sm:   calc(0.75 * var(--space-unit));
+    --space-md:   calc(1.25 * var(--space-unit));
+    --space-lg:   calc(2 * var(--space-unit));
+    --space-xl:   calc(3.25 * var(--space-unit));
+    --space-xxl:  calc(5.25 * var(--space-unit));
+    --space-xxxl: calc(8.5 * var(--space-unit));
+    --space-xxxxl: calc(13.75 * var(--space-unit));
+
+    --basic-padding: var(--space-sm);
+
+
+
+
+    /*------------------*\
+      #Sizes and Layout
+    \*..................*/
+
+    --max-width: calc(var(--space-unit) * 50);
+    --readable-width: calc(var(--space-unit) * 28);
+    --side-bar: calc(var(--readable-width) / 3);
+    --offset: calc(var(--space-xxxl) + var(--space-xl));
+
+
+
+
+    /*------------------*\
+      #Borders & Shadows
+    \*..................*/
+
+    --border-radius: var(--space-xxs);
+    --border-radius-s: var(--space-xxxs);
+    --shadow-offset: calc(0.2 * var(--space-unit));
+    --shadow-offset-s: calc(0.1 * var(--space-unit));
+    --shadow-blur: 0;
+    --shadow-hue: var(--gray-light);
+    --shadow-hue-dark: var(--gray-med);
+}
