@@ -1,7 +1,6 @@
 <script>
  import ProductCard from './ProductCard.svelte';
  export let products;
- console.log({ products })
 </script>
 
 <section class='product-grid'>
