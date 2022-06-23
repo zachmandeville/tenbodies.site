@@ -28,6 +28,7 @@
     <li><a href="/jewelry">Check out the jewelry</a></li>
     <li><a href="/music">Listen to a mix</a></li>
     <li><a href="/yoga">Learn about my yoga practice and classes</a></li>
+    <li><a href='/yoga/classes'>and check out a class!</a>
   </ul>
 </nav>
 
@@ -36,6 +37,7 @@
 <button on:click={() => counter++}>another</button>
 
 <h2>For Chica:</h2>
+<em>cool freaks only</em>
 <p>This is a baaaaarebones custom storefront for you. It is pulling data live
   from your shopify site, but we can put the data wherever we want however we
   wnat in this site.</p>
