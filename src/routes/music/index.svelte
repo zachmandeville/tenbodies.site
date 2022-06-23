@@ -1,4 +1,6 @@
-<html>
   <h2>music</h2>
-  <p>thank you for checkout out the music
-</html>
+
+  <p>This is just an html file, you can fill it out as you please!</p>
+  <p>You can put in your soundcloud mixes for example</p>
+  <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1080014968&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/bbbgggg" title="dj bbgun" target="_blank" style="color: #cccccc; text-decoration: none;">dj bbgun</a> · <a href="https://soundcloud.com/bbbgggg/arthack-jun-10-2021-popcan" title="art~hack minimix: soda 🥤" target="_blank" style="color: #cccccc; text-decoration: none;">art~hack minimix: soda 🥤</a></div>
+  <p>And, since we now are writing all this code, we could make a player that travels throughout the site...so you can set up tenbodies.site with a soundtrack like it a frickin' Muji</p>
